@@ -71,7 +71,7 @@ function GeneratePetCard(state, index)
 
   // Create an image element and set its source and alt attributes
   const img = document.createElement("img");
-  img.src = pet.img.replace("../../", "./");
+  img.src = pet.img;
   img.alt = pet.name;
   img.classList.add("pet-img");
 
