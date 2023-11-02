@@ -1,6 +1,6 @@
 let petsInfoDictionaries = [];
 
-fetch("./json/pets.json")
+fetch("./main/main2/json/pets.json")
   .then(response => {
     if (!response.ok) {
       throw new Error('Ошибка при загрузке данных.');
